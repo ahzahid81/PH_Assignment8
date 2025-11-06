@@ -1,0 +1,362 @@
+[
+    {
+        "image": "https://logo.clearbit.com/whatsapp.com",
+        "title": "WhatsApp",
+        "companyName": "WhatsApp LLC",
+        "id": 1,
+        "description": "WhatsApp is a cross-platform messaging and voice-over-IP service that allows users to send text messages, voice messages, images, documents, and make voice and video calls. It focuses on simplicity and end-to-end encryption for private communication between individuals and groups.",
+        "size": 35,
+        "reviews": "45M",
+        "ratingAvg": 4.3,
+        "downloads": "5B+",
+        "ratings": [
+            { "name": "1 star", "count": 2500000 },
+            { "name": "2 star", "count": 700000 },
+            { "name": "3 star", "count": 2000000 },
+            { "name": "4 star", "count": 12000000 },
+            { "name": "5 star", "count": 28100000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/facebook.com",
+        "title": "Facebook",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 2,
+        "description": "Facebook is a social networking service that helps people connect with friends and family, discover what's happening in the world, and share and express what matters to them. It supports posting text, photos, videos, events, and groups.",
+        "size": 120,
+        "reviews": "32M",
+        "ratingAvg": 4.0,
+        "downloads": "5B+",
+        "ratings": [
+            { "name": "1 star", "count": 4000000 },
+            { "name": "2 star", "count": 1200000 },
+            { "name": "3 star", "count": 3500000 },
+            { "name": "4 star", "count": 9000000 },
+            { "name": "5 star", "count": 14500000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/instagram.com",
+        "title": "Instagram",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 3,
+        "description": "Instagram is a photo and short-form video sharing social platform where users can post, edit, and share visual content, follow creators, and interact through likes, comments and stories. It features Reels for short video discovery.",
+        "size": 110,
+        "reviews": "28M",
+        "ratingAvg": 4.4,
+        "downloads": "4B+",
+        "ratings": [
+            { "name": "1 star", "count": 1800000 },
+            { "name": "2 star", "count": 700000 },
+            { "name": "3 star", "count": 2500000 },
+            { "name": "4 star", "count": 9000000 },
+            { "name": "5 star", "count": 16500000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/tiktok.com",
+        "title": "TikTok",
+        "companyName": "ByteDance Ltd.",
+        "id": 4,
+        "description": "TikTok is a platform for short-form mobile videos, offering creative tools and algorithmic discovery to rapidly surface entertaining and viral clips. Users can create, edit, and share videos set to music or audio clips.",
+        "size": 250,
+        "reviews": "36M",
+        "ratingAvg": 4.5,
+        "downloads": "3.5B+",
+        "ratings": [
+            { "name": "1 star", "count": 2200000 },
+            { "name": "2 star", "count": 900000 },
+            { "name": "3 star", "count": 3000000 },
+            { "name": "4 star", "count": 11000000 },
+            { "name": "5 star", "count": 18800000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/spotify.com",
+        "title": "Spotify",
+        "companyName": "Spotify AB",
+        "id": 5,
+        "description": "Spotify is a digital music streaming service that gives instant access to millions of songs and podcasts. It provides personalized playlists, algorithmic recommendations, and offline listening for premium users.",
+        "size": 90,
+        "reviews": "12.5M",
+        "ratingAvg": 4.6,
+        "downloads": "1B+",
+        "ratings": [
+            { "name": "1 star", "count": 350000 },
+            { "name": "2 star", "count": 120000 },
+            { "name": "3 star", "count": 400000 },
+            { "name": "4 star", "count": 2400000 },
+            { "name": "5 star", "count": 9000000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/youtube.com",
+        "title": "YouTube",
+        "companyName": "Google LLC",
+        "id": 6,
+        "description": "YouTube is a global video platform for watching, uploading, and sharing videos. It hosts a variety of content including vlogs, tutorials, music videos, and long-form productions, with features like subscriptions, playlists, and offline viewing.",
+        "size": 150,
+        "reviews": "20M",
+        "ratingAvg": 4.4,
+        "downloads": "5B+",
+        "ratings": [
+            { "name": "1 star", "count": 1200000 },
+            { "name": "2 star", "count": 400000 },
+            { "name": "3 star", "count": 1600000 },
+            { "name": "4 star", "count": 5600000 },
+            { "name": "5 star", "count": 11100000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/netflix.com",
+        "title": "Netflix",
+        "companyName": "Netflix, Inc.",
+        "id": 7,
+        "description": "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices. Netflix also produces original content and supports offline downloads.",
+        "size": 120,
+        "reviews": "7M",
+        "ratingAvg": 4.1,
+        "downloads": "1B+",
+        "ratings": [
+            { "name": "1 star", "count": 500000 },
+            { "name": "2 star", "count": 150000 },
+            { "name": "3 star", "count": 350000 },
+            { "name": "4 star", "count": 1700000 },
+            { "name": "5 star", "count": 4200000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/x.com",
+        "title": "X (Twitter)",
+        "companyName": "X Corp.",
+        "id": 8,
+        "description": "X (formerly Twitter) is a microblogging and social networking service where users post short messages, images, and links. The platform focuses on real-time conversation and news dissemination.",
+        "size": 90,
+        "reviews": "6M",
+        "ratingAvg": 3.7,
+        "downloads": "1B+",
+        "ratings": [
+            { "name": "1 star", "count": 1400000 },
+            { "name": "2 star", "count": 450000 },
+            { "name": "3 star", "count": 600000 },
+            { "name": "4 star", "count": 1500000 },
+            { "name": "5 star", "count": 2050000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/snapchat.com",
+        "title": "Snapchat",
+        "companyName": "Snap Inc.",
+        "id": 9,
+        "description": "Snapchat is a multimedia messaging app known for ephemeral content (Snaps) and augmented reality lenses. It provides private and group messaging, Stories, and Discover content from publishers.",
+        "size": 64,
+        "reviews": "5.4M",
+        "ratingAvg": 4.0,
+        "downloads": "1B+",
+        "ratings": [
+            { "name": "1 star", "count": 300000 },
+            { "name": "2 star", "count": 100000 },
+            { "name": "3 star", "count": 400000 },
+            { "name": "4 star", "count": 1400000 },
+            { "name": "5 star", "count": 3200000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/microsoft.com",
+        "title": "Microsoft Teams",
+        "companyName": "Microsoft Corporation",
+        "id": 10,
+        "description": "Microsoft Teams is a collaboration platform that integrates chat, video conferencing, file storage (including collaboration on Office documents), and application integration for workplace productivity.",
+        "size": 200,
+        "reviews": "2.5M",
+        "ratingAvg": 4.1,
+        "downloads": "300M+",
+        "ratings": [
+            { "name": "1 star", "count": 120000 },
+            { "name": "2 star", "count": 40000 },
+            { "name": "3 star", "count": 90000 },
+            { "name": "4 star", "count": 400000 },
+            { "name": "5 star", "count": 1900000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/uber.com",
+        "title": "Uber",
+        "companyName": "Uber Technologies, Inc.",
+        "id": 11,
+        "description": "Uber connects riders and drivers through a mobile app for ride-hailing and delivery services. It offers trip booking, fare estimates, driver tracking, and ratings for accountability.",
+        "size": 95,
+        "reviews": "4.1M",
+        "ratingAvg": 4.0,
+        "downloads": "1B+",
+        "ratings": [
+            { "name": "1 star", "count": 220000 },
+            { "name": "2 star", "count": 80000 },
+            { "name": "3 star", "count": 200000 },
+            { "name": "4 star", "count": 900000 },
+            { "name": "5 star", "count": 2700000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/amazon.com",
+        "title": "Amazon Shopping",
+        "companyName": "Amazon.com, Inc.",
+        "id": 12,
+        "description": "Amazon Shopping offers product browsing, searching, user reviews, one-click purchasing, order tracking, and personalized recommendations to simplify online shopping.",
+        "size": 160,
+        "reviews": "18M",
+        "ratingAvg": 4.5,
+        "downloads": "1B+",
+        "ratings": [
+            { "name": "1 star", "count": 700000 },
+            { "name": "2 star", "count": 200000 },
+            { "name": "3 star", "count": 800000 },
+            { "name": "4 star", "count": 3500000 },
+            { "name": "5 star", "count": 12000000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/skype.com",
+        "title": "Skype",
+        "companyName": "Microsoft Corporation",
+        "id": 13,
+        "description": "Skype is a communication tool that provides voice and video calls, messaging, and screen sharing across devices. It supports group conversations and integrates with Microsoft 365 services for enhanced collaboration.",
+        "size": 110,
+        "reviews": "1.2M",
+        "ratingAvg": 4.1,
+        "downloads": "1B+",
+        "ratings": [
+            { "name": "1 star", "count": 60000 },
+            { "name": "2 star", "count": 20000 },
+            { "name": "3 star", "count": 70000 },
+            { "name": "4 star", "count": 300000 },
+            { "name": "5 star", "count": 770000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/dropbox.com",
+        "title": "Dropbox",
+        "companyName": "Dropbox, Inc.",
+        "id": 14,
+        "description": "Dropbox is a cloud storage app that lets users save, share, and manage files securely. Features include automatic photo upload, offline file access, and integration with productivity apps.",
+        "size": 95,
+        "reviews": "800K",
+        "ratingAvg": 4.5,
+        "downloads": "200M+",
+        "ratings": [
+            { "name": "1 star", "count": 30000 },
+            { "name": "2 star", "count": 10000 },
+            { "name": "3 star", "count": 30000 },
+            { "name": "4 star", "count": 150000 },
+            { "name": "5 star", "count": 590000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/trello.com",
+        "title": "Trello",
+        "companyName": "Atlassian Corporation",
+        "id": 15,
+        "description": "Trello is a project management app using boards, lists, and cards to help users organize tasks and collaborate. It's suitable for teams, individuals, and integrates with many other services.",
+        "size": 50,
+        "reviews": "650K",
+        "ratingAvg": 4.7,
+        "downloads": "100M+",
+        "ratings": [
+            { "name": "1 star", "count": 15000 },
+            { "name": "2 star", "count": 5000 },
+            { "name": "3 star", "count": 15000 },
+            { "name": "4 star", "count": 90000 },
+            { "name": "5 star", "count": 530000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/slack.com",
+        "title": "Slack",
+        "companyName": "Slack Technologies, Inc.",
+        "id": 16,
+        "description": "Slack is a messaging app for teams that brings communication, file sharing, and app integrations into one place. It supports channels, direct messages, and voice/video calls, improving workplace productivity.",
+        "size": 120,
+        "reviews": "900K",
+        "ratingAvg": 4.3,
+        "downloads": "150M+",
+        "ratings": [
+            { "name": "1 star", "count": 50000 },
+            { "name": "2 star", "count": 15000 },
+            { "name": "3 star", "count": 45000 },
+            { "name": "4 star", "count": 310000 },
+            { "name": "5 star", "count": 475000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/paypal.com",
+        "title": "PayPal",
+        "companyName": "PayPal Holdings, Inc.",
+        "id": 17,
+        "description": "PayPal is a digital payments app that enables users to send payments, receive funds, and manage their account balances. It supports peer-to-peer payments, merchant checkouts, and secure transactions.",
+        "size": 70,
+        "reviews": "1.1M",
+        "ratingAvg": 4.2,
+        "downloads": "300M+",
+        "ratings": [
+            { "name": "1 star", "count": 40000 },
+            { "name": "2 star", "count": 12000 },
+            { "name": "3 star", "count": 35000 },
+            { "name": "4 star", "count": 200000 },
+            { "name": "5 star", "count": 820000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/intagram.com",
+        "title": "Pinterest",
+        "companyName": "Pinterest, Inc.",
+        "id": 18,
+        "description": "Pinterest is a visual discovery app that allows users to find and save ideas for recipes, home décor, style inspiration, and more. Users create ‘pins’ and boards to organize their interests.",
+        "size": 80,
+        "reviews": "450K",
+        "ratingAvg": 4.6,
+        "downloads": "250M+",
+        "ratings": [
+            { "name": "1 star", "count": 20000 },
+            { "name": "2 star", "count": 7000 },
+            { "name": "3 star", "count": 15000 },
+            { "name": "4 star", "count": 70000 },
+            { "name": "5 star", "count": 350000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/booking.com",
+        "title": "Booking.com",
+        "companyName": "Booking Holdings Inc.",
+        "id": 19,
+        "description": "Booking.com offers accommodation booking services worldwide, providing hotels, apartments, and vacation rentals. The app includes price comparison, reviews, maps, and reservations all in one place.",
+        "size": 140,
+        "reviews": "650K",
+        "ratingAvg": 4.4,
+        "downloads": "100M+",
+        "ratings": [
+            { "name": "1 star", "count": 25000 },
+            { "name": "2 star", "count": 8000 },
+            { "name": "3 star", "count": 20000 },
+            { "name": "4 star", "count": 140000 },
+            { "name": "5 star", "count": 455000 }
+        ]
+    },
+    {
+        "image": "https://logo.clearbit.com/hulu.com",
+        "title": "Hulu",
+        "companyName": "Hulu, LLC",
+        "id": 20,
+        "description": "Hulu is a streaming app that offers TV shows, movies, live sports, and original content. It features on-demand streaming, downloads for offline viewing, and multiple user profiles.",
+        "size": 110,
+        "reviews": "300K",
+        "ratingAvg": 4.3,
+        "downloads": "50M+",
+        "ratings": [
+            { "name": "1 star", "count": 20000 },
+            { "name": "2 star", "count": 6000 },
+            { "name": "3 star", "count": 11000 },
+            { "name": "4 star", "count": 65000 },
+            { "name": "5 star", "count": 210000 }
+        ]
+    }
+]

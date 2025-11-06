@@ -8,6 +8,13 @@ import AppsDetails from "../Components/AppsDetails/AppsDetails";
 import ErrorAppPage from "../Components/ErrorPage/ErrorAppPage";
 import Navbar from "../Components/Header/Navbar";
 import Footer from "../Components/Footer/Footer";
+
+export const appsLoader = async () => {
+    const res = await fetch("/AppData.json");
+    if (!res.ok) throw new Response("Failed to fetch", { status: res.status });
+    return res.json();
+};
+
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -23,19 +30,27 @@ export const router = createBrowserRouter([
                 index: true,
                 path: "/",
                 Component: Home,
+                loader: appsLoader
             },
             {
                 path: "/Apps",
-                Component: Apps
+                Component: Apps,
+                loader: appsLoader,
+                errorElement: <>
+                    <Navbar></Navbar>
+                    <ErrorAppPage></ErrorAppPage>
+                    <Footer></Footer>
+                </>
             },
             {
                 path: "/Install",
-                Component: Install
+                Component: Install,
+                loader: appsLoader,
             },
             {
                 path: "/Apps/:id",
                 Component: AppsDetails,
-                errorElement: <ErrorAppPage></ErrorAppPage>
+                loader: appsLoader
             }
         ]
     },
