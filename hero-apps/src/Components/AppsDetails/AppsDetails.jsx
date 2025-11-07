@@ -6,6 +6,8 @@ import review from '../../assets/icon-review.png';
 import ErrorAppPage from '../ErrorPage/ErrorAppPage';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 import useLocalIds from '../../hooks/useLocalIds';
+import { toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -19,7 +21,12 @@ const AppsDetails = () => {
         return <ErrorAppPage></ErrorAppPage>
     }
 
-    const {addId, hasId} = useLocalIds();
+    const { addId, hasId } = useLocalIds();
+
+    const handleButton = () => {
+        addId(finalData.id)
+        toast.success(`${finalData.title} is successfully installed`)
+    }
 
     return (
         <div className='bg-base-200'>
@@ -50,7 +57,7 @@ const AppsDetails = () => {
                             </span>
                         </div>
                         {
-                            hasId(finalData.id)?<button  className='btn shadow-xl hover:shadow-2xl btn-xl skeleton bg-success btn-success text-white'>Installed</button>:<button onClick={() => addId(finalData.id)} className='btn shadow-xl hover:shadow-2xl btn-xl skeleton bg-success btn-success text-white'>Install Now (<span>{finalData.size}</span>MB )</button>
+                            hasId(finalData.id) ? <button className='btn shadow-xl hover:shadow-2xl btn-xl skeleton bg-success btn-success text-white'>Installed</button> :<button onClick={handleButton} className='btn shadow-xl hover:shadow-2xl btn-xl skeleton bg-success btn-success text-white'>Install Now (<span>{finalData.size}</span>MB )</button>
                         }
                     </div>
                 </div>
