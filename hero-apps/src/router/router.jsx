@@ -8,6 +8,7 @@ import AppsDetails from "../Components/AppsDetails/AppsDetails";
 import ErrorAppPage from "../Components/ErrorPage/ErrorAppPage";
 import Navbar from "../Components/Header/Navbar";
 import Footer from "../Components/Footer/Footer";
+import LoaderWrapper from "../Components/LoaderWrapper";
 
 export const appsLoader = async () => {
     const res = await fetch("/AppData.json");
@@ -29,12 +30,20 @@ export const router = createBrowserRouter([
             {
                 index: true,
                 path: "/",
-                Component: Home,
+                Component: () => (
+                    <LoaderWrapper>
+                        <Home />
+                    </LoaderWrapper>
+                ),
                 loader: appsLoader
             },
             {
                 path: "/Apps",
-                Component: Apps,
+                Component: () => (
+                    <LoaderWrapper>
+                        <Apps />
+                    </LoaderWrapper>
+                ),
                 loader: appsLoader,
                 errorElement: <>
                     <Navbar></Navbar>
@@ -44,12 +53,20 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/Install",
-                Component: Install,
+                Component: () => (
+                    <LoaderWrapper>
+                        <Install />
+                    </LoaderWrapper>
+                ),
                 loader: appsLoader,
             },
             {
                 path: "/Apps/:id",
-                Component: AppsDetails,
+                Component: () => (
+                    <LoaderWrapper>
+                        <AppsDetails />
+                    </LoaderWrapper>
+                ),
                 loader: appsLoader
             }
         ]

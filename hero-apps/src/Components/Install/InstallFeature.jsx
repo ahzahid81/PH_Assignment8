@@ -2,10 +2,15 @@ import React from 'react';
 import download from '../../assets/icon-downloads.png';
 import rating from '../../assets/icon-ratings.png';
 import useLocalIds from '../../hooks/useLocalIds';
+import { toast } from 'react-toastify';
 
 
 const InstallFeature = ({data}) => {
     const {removeId, ids} = useLocalIds();
+    const handleButton = () =>{
+        removeId(data.id);
+        toast.error(`${data.title} uninstalled successfully`);
+    }
     return (
         <div>
             <div className="flex items-center gap-3 p-3 rounded-xl bg-white shadow-sm transition-all duration-200 my-4">
@@ -25,7 +30,7 @@ const InstallFeature = ({data}) => {
                     </div>
                 </div>
 
-                <button onClick={() => removeId(data.id)} className="btn btn-success text-white">Uninstall</button>
+                <button onClick={handleButton} className="btn btn-success text-white">Uninstall</button>
             </div>
         </div>
     );

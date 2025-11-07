@@ -1,16 +1,37 @@
-# React + Vite
+# App Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Name
+HERO.IO
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+This project is a showcase of popular applications with detailed information including name, company, description, size, ratings, reviews, and downloads. Users can browse, search, and explore the applications developed by different companies.
 
-## React Compiler
+## Features
+- Display a list of popular apps (WhatsApp, Facebook, Instagram, TikTok, etc.)
+- Show app details: logo, company name, description, size, ratings, downloads
+- Search and filter apps
+- Sort apps based on size or rating
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
+- **Frontend:** React, Tailwind CSS
+- **Routing:** React Router
+- **Icons:** react-icons
+- **State Management:** React Hooks (useState, useEffect)
+- **Data Handling:** JSON Loader
 
-## Expanding the ESLint configuration
+## Sample Apps Included
+| App Name        | Company Name             | Description |
+|-----------------|-------------------------|-------------|
+| WhatsApp        | WhatsApp LLC            | Cross-platform messaging and voice-over-IP service with end-to-end encryption. |
+| Facebook        | Meta Platforms, Inc.    | Social networking platform to connect with friends, share content, and discover news. |
+| Instagram       | Meta Platforms, Inc.    | Photo and video sharing platform with Reels for short videos. |
+| TikTok          | ByteDance Ltd.          | Short-form mobile video platform for creative content. |
+| Spotify         | Spotify AB              | Digital music streaming service with playlists and offline listening. |
+| YouTube         | Google LLC              | Global video platform for uploading, watching, and sharing videos. |
+| Netflix         | Netflix, Inc.           | Streaming service with movies, TV shows, and original content. |
+| X (Twitter)     | X Corp.                 | Microblogging and social networking service. |
+| Snapchat        | Snap Inc.               | Multimedia messaging app with ephemeral content and AR features. |
+| Microsoft Teams | Microsoft Corporation   | Collaboration platform with chat, video, and file sharing. |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*(More apps included in the dataset)*

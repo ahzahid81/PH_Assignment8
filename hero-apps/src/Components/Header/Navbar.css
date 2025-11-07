@@ -1,9 +1,8 @@
-.active li a{
+.active li {
+    display: inline-block; /* or block */
     background: linear-gradient(90deg, #632EE3, #9F62F2);
-    -webkit-background-clip: text; /* For Safari/Chrome */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text; /* For Firefox (optional) */
-}
-.active li{
-    text-decoration: underline;
+    background-clip: text;
+    border-bottom: 2px solid #632EE3; /* simulate underline */
 }
