@@ -26,7 +26,7 @@ const Navbar = () => {
                             {links}
                         </ul>
                     </div>
-                    <Link to={'/'}><a className="btn btn-ghost font-bold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"> <img className=' w-10 h-10' src={logo} alt="" /> HERO.IO</a></Link>
+                    <Link to={'/'}><div className="btn btn-ghost font-bold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"> <img className=' w-10 h-10' src={logo} alt="" /> HERO.IO</div></Link>
                     
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -35,7 +35,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <Link to={'https://github.com/ahzahid81'}><a className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"><FaGithub></FaGithub> Contribute</a></Link>
+                    <Link to={'https://github.com/ahzahid81'}><div className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"><FaGithub></FaGithub> Contribute</div></Link>
                     
                 </div>
             </div>

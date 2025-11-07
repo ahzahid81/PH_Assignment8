@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import HomeApp from '../HomeApps/HomeApp';
 
 const Apps = () => {
 
     const appsData = useLoaderData();
+    const [searchTerm, setSearchTerm] = useState("");
+
+     const filteredApps = searchTerm.trim() === ''? appsData: appsData.filter(app => {
+        const title = String(app.title).toLowerCase();
+        const q = searchTerm.trim().toLowerCase();
+        return title.includes(q);
+      });
+
     return (
         <div>
             <div className='bg-base-200 py-20'>
@@ -13,7 +21,7 @@ const Apps = () => {
                     <p className='text-center text-[#627382] pb-20'>Explore All Apps on the Market developed by us. We code for Millions</p>
                 </div>
                 <div className='flex justify-between px-20'>
-                    <h1 className=' font-bold text-2xl'>(<span>{appsData.length}</span>) Apps Found</h1>
+                    <h1 className=' font-bold text-2xl'>(<span>{filteredApps.length}</span>) Apps Found</h1>
                     <label className="input">
                         <svg className="h-[1em] opacity-50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <g
@@ -27,13 +35,13 @@ const Apps = () => {
                                 <path d="m21 21-4.3-4.3"></path>
                             </g>
                         </svg>
-                        <input type="search" placeholder="Search Apps" />
+                        <input value={searchTerm} onChange={e => setSearchTerm(e.target.value)} type="search" placeholder="Search Apps" />
                     </label>
                 </div>
                 <div>
                     <div className='w-11/12 mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 my-10 gap-5'>
                         {
-                            appsData.map(data => <HomeApp key={data.id} data={data}></HomeApp>)
+                            filteredApps.map(data => <HomeApp key={data.id} data={data}></HomeApp>)
                         }
                     </div>
                 </div>
