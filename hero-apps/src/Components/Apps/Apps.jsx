@@ -7,11 +7,11 @@ const Apps = () => {
     const appsData = useLoaderData();
     const [searchTerm, setSearchTerm] = useState("");
 
-     const filteredApps = searchTerm.trim() === ''? appsData: appsData.filter(app => {
+    const filteredApps = searchTerm.trim() === '' ? appsData : appsData.filter(app => {
         const title = String(app.title).toLowerCase();
         const q = searchTerm.trim().toLowerCase();
         return title.includes(q);
-      });
+    });
 
     return (
         <div>
@@ -39,6 +39,9 @@ const Apps = () => {
                     </label>
                 </div>
                 <div>
+                    {
+                        filteredApps.length === 0 && <h1 className=' text-center font-bold text-5xl p-10'>No App Found</h1>
+                    }
                     <div className='w-11/12 mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 my-10 gap-5'>
                         {
                             filteredApps.map(data => <HomeApp key={data.id} data={data}></HomeApp>)
